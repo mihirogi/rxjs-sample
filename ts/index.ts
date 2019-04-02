@@ -1,15 +1,11 @@
-// const button = document.querySelector('.button');
-// button!.addEventListener('click', (event: any) => {
-//     console.log(`${(event.target as HTMLButtonElement).textContent} is clicked!!`);
-// });
+import { sample1 } from './sample1'
+import { sample2 } from './sample2';
+import {sample3_1, sample3_2, sample3_3, sample3_4, sample3_5} from './sample3';
 
-import {fromEvent} from 'rxjs';
-
-const button = document.querySelector('.button');
-
-fromEvent(button!, 'click')
-  .subscribe(
-      (event: any) => {
-          console.log(`${(event.target as HTMLButtonElement).textContent} is clicked!!`);
-      }
-  );
+sample1();
+sample2();
+sample3_1();
+sample3_2();
+sample3_3();
+sample3_4();
+sample3_5();
