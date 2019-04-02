@@ -22,3 +22,8 @@ sample4_1();
 sample5_1();
 sample5_2();
 sample5_3();
+
+sample6_1();
+sample6_2();
+sample6_3();
+sample6_4();
